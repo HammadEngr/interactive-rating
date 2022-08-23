@@ -1,0 +1,120 @@
+body, .thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 0 0;
+  background-color: #121417;
+  font-family: sans-serif;
+}
+.mainBoard{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #252D37;
+  box-sizing:border-box;
+  padding: 20px;
+}
+h1 {
+  padding-top: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+.description {
+  color: #959EAC;
+  font-size: 0.7rem;
+  padding-top: 10px;
+}
+.star{
+  background-color: #484F5B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.rating-box{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-between;
+  padding: 10px 0;
+
+}
+.ratingbutton{
+  border-radius: 100%;
+  border-style: none;
+  width: 35px;
+  height: 35px;
+  font-size: 1rem;
+  background-color: #484F5B;
+}
+.ratingbuttonBgGrey{
+  background-color: #959EAC;
+  color: white;
+}
+.ratingbuttonBgOrange{
+  background-color: #FB7413;
+}
+.submit{
+  padding: 10px 104.25px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #FB7413;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: white;
+  margin-top: 20px;
+}
+.submit:hover{
+  background-color: white;
+  color: #FB7413;
+  cursor: pointer;
+}
+
+.mainBoard2display{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #252D37;
+  box-sizing:border-box;
+  padding: 20px;
+}
+.mainboard2Hidden{
+  display: none;
+}
+.thanksSvg{
+  position: absolute;
+  padding: 10px 50px;
+}
+.selectionBox{
+  margin-top: 140px;
+  background-color: #484F5B;
+  border-radius: 20px;
+  border-style: none;
+  text-align: center;
+  display: block;
+}
+.yourSelection{
+  margin: 0 0 0;
+  padding: 4px 10px;
+  color: #FB7413;
+  font-size: 1rem;
+}
+.ThankYou{
+  margin-top: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.thankYouNote{
+  color: grey;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 0 0;
+}
